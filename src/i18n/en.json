@@ -1,15 +1,15 @@
 {
-  "SEO_TITLE": "ItsTeddyDev Hub - Resource and Content Center",
-  "SEO_DESCRIPTION": "Explore books, articles, hobbies, and educational resources at Justcoddev's personal hub. Discover the best of my career and my recommendations.",
+  "SEO_TITLE": "Kelvin Maina Wangari - Software Developer & IT Consultant",
+  "SEO_DESCRIPTION": "A results-oriented Software Developer and IT Consultant with over five years of experience in full-lifecycle software development, including mobile and web applications. Proven ability to deliver high-quality solutions, from concept to deployment, for a diverse clientele. Possesses strong expertise in cloud infrastructure management, data analysis, and technical instruction. A dedicated and fast learner, committed to leveraging emerging technologies to solve complex problems and drive user engagement.",
   "ERROR_404": {
     "TITLE": "404 - Not Found",
     "DESCRIPTION": "Not Found",
     "BACK_HOMEPAGE_BTN": "Go Back"
   },
   "HERO": {
-    "NAME": "Teddy Summers",
-    "TITLE": "Software Engineer",
-    "DESCRIPTION": "I'm a software engineer who loves to learn and share knowledge. I'm passionate about technology, programming, and software development. I'm always looking for new challenges and opportunities to grow."
+    "NAME": "Kelvin Maina Wangari",
+    "TITLE": "Software Developer & IT Consultant",
+    "DESCRIPTION": "A results-oriented Software Developer and IT Consultant with over five years of experience in full-lifecycle software development, including mobile and web applications. Proven ability to deliver high-quality solutions, from concept to deployment, for a diverse clientele. Possesses strong expertise in cloud infrastructure management, data analysis, and technical instruction. A dedicated and fast learner, committed to leveraging emerging technologies to solve complex problems and drive user engagement."
   },
   "ABOUT": {
     "TITLE": "about",
@@ -17,11 +17,10 @@
   },
   "NAVBAR": {
     "PROJECTS": "Projects",
-    "ARTICLES": "Articles",
-    "BOOKSMARKS": "BooksMarks",
-    "EDUCATION_HUB": "Education Hub",
-    "FUN_HOBBIES": "Fun Hobbies",
-    "SHOP_NOW": "Shop Now"
+    "EXPERIENCE": "Experience",
+    "EDUCATION": "Education",
+    "SKILLS": "Skills",
+    "CERTIFICATIONS": "Certifications"
   },
   "PROJECTS": {
     "empty": {
@@ -32,33 +31,27 @@
       "NEW": "New"
     }
   },
-  "ARTICLES": {
-    "empty": {
-      "message": "Oops, there are no articles to display.",
-      "message2": "But don't worry, there's always something interesting waiting for you!"
-    }
-  },
-  "BOOKSMARKS": {
-    "empty": {
-      "message": "Oops, there are no bookmarks to display.",
-      "message2": "But don't worry, there's always something interesting waiting for you!"
-    }
-  },
-  "EDUCATION_HUB": {
+  "EDUCATION": {
     "empty": {
       "message": "Oops, there are no educational resources to display.",
       "message2": "But don't worry, there's always something interesting waiting for you!"
     }
   },
-  "FUN_HOBBIES": {
+  "CERTIFICATIONS": {
     "empty": {
-      "message": "Oops, there are no fun hobbies to display.",
+      "message": "Oops, there are no certifications to display.",
       "message2": "But don't worry, there's always something interesting waiting for you!"
     }
   },
-  "SHOP_NOW": {
+  "SKILLS": {
     "empty": {
-      "message": "Oops, there are no products to display.",
+      "message": "Oops, there are no skills to display.",
+      "message2": "But don't worry, there's always something interesting waiting for you!"
+    }
+  },
+  "EXPERIENCE": {
+    "empty": {
+      "message": "Oops, there are no experiences to display.",
       "message2": "But don't worry, there's always something interesting waiting for you!"
     }
   },

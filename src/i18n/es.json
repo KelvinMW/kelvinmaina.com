@@ -1,27 +1,26 @@
 {
-  "SEO_TITLE": "ItsTeddyDev Hub - Centro de Recursos y Contenidos",
-  "SEO_DESCRIPTION": "Explora libros, artículos, pasatiempos y recursos educativos en el hub personal de Justcoddev. Descubre lo mejor de mi carrera y mis recomendaciones.",
+  "SEO_TITLE": "Kelvin Maina Wangari - Desarrollador de Software y Consultor TI",
+  "SEO_DESCRIPTION": "Un desarrollador de software y consultor de TI orientado a resultados con más de cinco años de experiencia en el desarrollo de software de ciclo completo, incluidas aplicaciones móviles y web. Capacidad demostrada para ofrecer soluciones de alta calidad, desde el concepto hasta la implementación, para una clientela diversa. Posee una gran experiencia en la gestión de infraestructuras en la nube, el análisis de datos y la instrucción técnica. Un aprendiz dedicado y rápido, comprometido con el aprovechamiento de las tecnologías emergentes para resolver problemas complejos e impulsar la participación de los usuarios.",
   "ERROR_404": {
     "TITLE": "404 - No Encontrado",
     "DESCRIPTION": "No Encontrado",
     "BACK_HOMEPAGE_BTN": "Volver"
   },
   "HERO": {
-    "NAME": "Teddy Summers",
-    "TITLE": "Ingeniero de Software",
-    "DESCRIPTION": "Soy un ingeniero de software que ama aprender y compartir conocimientos. Me apasiona la tecnología, la programación y el desarrollo de software. Siempre estoy buscando nuevos desafíos y oportunidades para crecer."
+    "NAME": "Kelvin Maina Wangari",
+    "TITLE": "Desarrollador de Software y Consultor TI",
+    "DESCRIPTION": "Un desarrollador de software y consultor de TI orientado a resultados con más de cinco años de experiencia en el desarrollo de software de ciclo completo, incluidas aplicaciones móviles y web. Capacidad demostrada para ofrecer soluciones de alta calidad, desde el concepto hasta la implementación, para una clientela diversa. Posee una gran experiencia en la gestión de infraestructuras en la nube, el análisis de datos y la instrucción técnica. Un aprendiz dedicado y rápido, comprometido con el aprovechamiento de las tecnologías emergentes para resolver problemas complejos e impulsar la participación de los usuarios."
   },
   "ABOUT": {
     "TITLE": "acerca de",
     "DESCRIPTION": "Acerca de DESCRIPCIÓN"
   },
   "NAVBAR": {
-    "PROJECTS": "Projectos",
-    "ARTICLES": "Artículos",
-    "BOOKSMARKS": "Marcadores",
-    "EDUCATION_HUB": "Hub Educativo",
-    "FUN_HOBBIES": "Pasatiempos",
-    "SHOP_NOW": "Comprar Ahora"
+    "PROJECTS": "Proyectos",
+    "EXPERIENCE": "Experiencia",
+    "EDUCATION": "Educación",
+    "SKILLS": "Habilidades",
+    "CERTIFICATIONS": "Certificaciones"
   },
   "PROJECTS": {
     "empty": {
@@ -32,33 +31,27 @@
       "NEW": "Nuevo"
     }
   },
-  "ARTICLES": {
-    "empty": {
-      "message": "Vaya, no hay artículos para mostrar.",
-      "message2": "¡Pero no te preocupes, siempre hay algo interesante esperándote!"
-    }
-  },
-  "BOOKSMARKS": {
-    "empty": {
-      "message": "Vaya, no hay marcadores para mostrar.",
-      "message2": "¡Pero no te preocupes, siempre hay algo interesante esperándote!"
-    }
-  },
-  "EDUCATION_HUB": {
+  "EDUCATION": {
     "empty": {
       "message": "Vaya, no hay recursos educativos para mostrar.",
       "message2": "¡Pero no te preocupes, siempre hay algo interesante esperándote!"
     }
   },
-  "FUN_HOBBIES": {
+  "CERTIFICATIONS": {
     "empty": {
-      "message": "Vaya, no hay pasatiempos divertidos para mostrar.",
+      "message": "Vaya, no hay certificaciones para mostrar.",
       "message2": "¡Pero no te preocupes, siempre hay algo interesante esperándote!"
     }
   },
-  "SHOP_NOW": {
+  "SKILLS": {
     "empty": {
-      "message": "Vaya, no hay productos para mostrar.",
+      "message": "Vaya, no hay habilidades para mostrar.",
+      "message2": "¡Pero no te preocupes, siempre hay algo interesante esperándote!"
+    }
+  },
+  "EXPERIENCE": {
+    "empty": {
+      "message": "Vaya, no hay experiencias para mostrar.",
       "message2": "¡Pero no te preocupes, siempre hay algo interesante esperándote!"
     }
   },

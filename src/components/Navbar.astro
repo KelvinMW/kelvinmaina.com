@@ -1,67 +1,63 @@
 ---
-import BooksMarks from "./BooksMarks.astro";
 import Projects from "./Projects.astro";
-import Articles from "./Articles.astro";
+import Experience from "./Experience.astro";
+import Education from "./Education.astro";
+import Skills from "./Skills.astro";
+import Certifications from "./Certifications.astro";
 import NavButton from "./index/NavButton.astro";
 import SectionContainer from "./SectionContainer.astro";
-import EducationHub from "./EducationHub.astro";
-import FunHobbies from "./FunHobbies.astro";
-import ShopNow from "./ShopNow.astro";
-import { getI18N } from "@/i18n";
+import About from "./About.astro";
 
-//Para cambiar idioma de textos
-const { currentLocale } = Astro;
-const i18n = getI18N({ currentLocale });
 ---
 
 <div class="flex flex-col">
   <nav
-    class="flex gap-1 text-hub-inactive rounded-full border-[1px] p-[2px] border-hub-border dark:border-hub-border-dark bg-hub-background-nav dark:bg-hub-background-nav whitespace-nowrap overflow-x-auto scrollbar-hide"
+    class="flex gap-1 text-hub-inactive dark:text-hub-inactive-dark rounded-full border-[1px] p-[2px] border-hub-border dark:border-hub-border-dark bg-hub-background-nav dark:bg-hub-background-nav-dark whitespace-nowrap overflow-x-auto scrollbar-hide"
   >
+    <NavButton class="tab-btn" aria-label="btn-about" data-target="about"
+      >Professional Summary</NavButton
+    >
     <NavButton class="tab-btn" aria-label="btn-projects" data-target="projects"
-      >{i18n.NAVBAR.PROJECTS}</NavButton
+      >Projects</NavButton
     >
-    <NavButton class="tab-btn" aria-label="btn-Articles" data-target="articles"
-      >{i18n.NAVBAR.ARTICLES}</NavButton
-    >
-    <NavButton
-      class="tab-btn"
-      aria-label="btn-projects"
-      data-target="booksMarks">{i18n.NAVBAR.BOOKSMARKS}</NavButton
+    <NavButton class="tab-btn" aria-label="btn-experience" data-target="experience"
+      >Professional Experience</NavButton
     >
     <NavButton
       class="tab-btn"
-      aria-label="btn-projects"
-      data-target="educationHub">{i18n.NAVBAR.EDUCATION_HUB}</NavButton
+      aria-label="btn-education"
+      data-target="education">Education</NavButton
     >
     <NavButton
       class="tab-btn"
-      aria-label="btn-projects"
-      data-target="funHobbies">{i18n.NAVBAR.FUN_HOBBIES}</NavButton
+      aria-label="btn-skills"
+      data-target="skills">Technical Proficiencies</NavButton
     >
-    <NavButton class="tab-btn" aria-label="btn-funHobbies" data-target="shopNow"
-      >{i18n.NAVBAR.SHOP_NOW}</NavButton
+    <NavButton
+      class="tab-btn"
+      aria-label="btn-certifications"
+      data-target="certifications">Certifications</NavButton
     >
   </nav>
 
   <main class="mt-6">
-    <SectionContainer id="projects" class="tab-content mt-0 mb-0">
+    <SectionContainer id="about" class="tab-content mt-0 mb-0">
+      <About />
+    </SectionContainer>
+    <SectionContainer id="projects" class="tab-content hidden mt-0 mb-0">
       <Projects />
     </SectionContainer>
-    <SectionContainer id="articles" class="tab-content hidden mt-0 mb-0">
-      <Articles />
+    <SectionContainer id="experience" class="tab-content hidden mt-0 mb-0">
+      <Experience />
     </SectionContainer>
-    <SectionContainer id="booksMarks" class="tab-content hidden mt-0 mb-0">
-      <BooksMarks />
+    <SectionContainer id="education" class="tab-content hidden mt-0 mb-0">
+      <Education />
     </SectionContainer>
-    <SectionContainer id="educationHub" class="tab-content hidden mt-0 mb-0">
-      <EducationHub />
+    <SectionContainer id="skills" class="tab-content hidden mt-0 mb-0">
+      <Skills />
     </SectionContainer>
-    <SectionContainer id="funHobbies" class="tab-content hidden mt-0 mb-0">
-      <FunHobbies />
-    </SectionContainer>
-    <SectionContainer id="shopNow" class="tab-content hidden mt-0 mb-0">
-      <ShopNow />
+    <SectionContainer id="certifications" class="tab-content hidden mt-0 mb-0">
+      <Certifications />
     </SectionContainer>
   </main>
 </div>
@@ -71,7 +67,7 @@ const i18n = getI18N({ currentLocale });
   const contents = document.querySelectorAll(".tab-content");
 
   // Establece el botón activo por defecto
-  const defaultActive = document.querySelector('[data-target="projects"]');
+  const defaultActive = document.querySelector('[data-target="about"]');
   if (defaultActive) {
     defaultActive.classList.add(
       "bg-hub-background",
@@ -81,9 +77,9 @@ const i18n = getI18N({ currentLocale });
       "dark:text-hub-title-dark",
       "dark:bg-hub-background-dark",
     );
-    const projectsSection = document.getElementById("projects");
-    if (projectsSection) {
-      projectsSection.classList.remove("hidden");
+    const aboutSection = document.getElementById("about");
+    if (aboutSection) {
+      aboutSection.classList.remove("hidden");
     }
   }
 
