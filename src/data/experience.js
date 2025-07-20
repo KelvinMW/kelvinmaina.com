@@ -1,23 +1,38 @@
 export const experiences = [
   {
-    title: "IT CONSULTANT & SOFTWARE DEVELOPER",
+    title: "CAMBRIDGE COMPUTER SCIENCE/ICT INSTRUCTOR",
+    company: "Independent School",
+    location: "Victoria, Seychelles",
+    period: "July 2025 - Present",
+    tasks: [
+      "Instructing Cambridge Computer Science and ICT curriculum to students.",
+      "Developing and implementing comprehensive lesson plans aligned with Cambridge standards.",
+      "Assessing student progress and providing constructive feedback on assignments and projects.",
+      "Integrating modern technology and teaching methodologies to enhance learning outcomes.",
+      "Collaborating with faculty to ensure curriculum alignment and student success."
+    ]
+  },
+  {
+    title: "PROJECT-BASED IT CONSULTANT & SOFTWARE DEVELOPER",
     company: "Kwality Consulting Solutions",
     location: "Hargeisa, Somaliland",
-    period: "February 2020 - Present",
+    period: "February 2020 - Present (Project-based)",
     tasks: [
-      "Led the design and implementation of client projects, collaborating with the development team to meet all specifications.",
-      "Managed the deployment and configuration of applications on various cloud platforms, including AWS, Azure, and GCP, handling all DevOps responsibilities for the team.",
-      "Engineered and implemented new software features that significantly drove user engagement across existing services.",
-      "Identified and resolved software defects and enhanced application stability by creating comprehensive unit tests.",
-      "Directed project lifecycle by defining scope and objectives, writing technical proposals to secure new business, and negotiating client contracts.",
-      "Conducted in-depth business analysis and translated complex data into simplified, actionable insights for strategic decision-making."
+      "Work on a project basis, providing IT consulting and software development services as needed.",
+      "Lead the design and implementation of client projects, collaborating with the development team to meet all specifications.",
+      "Manage deployment and configuration of applications on various cloud platforms, including AWS, Azure, and GCP, handling all DevOps responsibilities for the team.",
+      "Engineer and implement new software features to drive user engagement across existing services.",
+      "Identify and resolve software defects and enhance application stability by creating comprehensive unit tests.",
+      "Direct project lifecycle by defining scope and objectives, writing technical proposals to secure new business, and negotiating client contracts.",
+      "Conduct in-depth business analysis and translate complex data into simplified, actionable insights for strategic decision-making."
     ]
+    
   },
   {
     title: "ICT & COMPUTER SCIENCE TEACHER",
     company: "ELM International Schools",
     location: "Hargeisa, Somaliland",
-    period: "September 2018 - Present",
+    period: "September 2018 - June 2025",
     tasks: [
       "Head the ICT department, overseeing the integration of technology into the curriculum across all departments.",
       "Pioneered and implemented a new Learning Management System (LMS) for the institution. This involved system design, training, and providing ongoing support to faculty.",

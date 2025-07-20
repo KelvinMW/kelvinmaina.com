@@ -6,7 +6,7 @@ export const cardsData = [
     title: "Jomo Kenyatta University of Agriculture & Technology",
     subtitle: "Bachelor of Science in Mathematics & Computer Science",
     period: "Graduated: November 2016",
-    imageSrc: "/img/notion/white/my-notion-face-transparent_16.png",
+    imageSrc: "/img/notion/white/jkuat.png",
     imageAlt: "Jomo Kenyatta University of Agriculture & Technology logo",
 
   },
@@ -17,7 +17,7 @@ export const cardsData = [
     title: "Kenya Technical Trainers College",
     subtitle: "Postgraduate Certificate in Education (PGCE) in Mathematics & Technology",
     period: "Completed: August 2019",
-    imageSrc: "/img/notion/white/my-notion-face-transparent_16.png",
+    imageSrc: "/img/notion/white/kttc.png",
     imageAlt: "Kenya Technical Trainers College logo",
 
   }

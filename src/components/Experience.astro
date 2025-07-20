@@ -25,17 +25,18 @@ const i18n = getI18N({ currentLocale });
             id={`experience-${index}`}
             url={`${card.company} | ${card.location}`}
             title={card.title}
-            subtitle={`${card.company} | ${card.location} | ${card.period}`}
-            imageSrc="/img/notion/white/my-notion-face-transparent_3.png"
+            subtitle={`${card.company} • ${card.location} • ${card.period}`}
+            imageSrc="/img/notion/white/work.png"
             imageAlt={card.title}
             tasks={card.tasks}
+            isCurrent={card.period.includes('Present')}
           />
         ))
       ) : (
         <NoDataCard
           message={i18n.PROJECTS.empty.message}
           subtitle={i18n.PROJECTS.empty.message2}
-          imageSrc="/img/notion/white/my-notion-face-transparent_9.png"
+                      imageSrc="/img/notion/white/work.png"
         />
       )
     }

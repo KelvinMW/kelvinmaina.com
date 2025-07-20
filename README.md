@@ -6,7 +6,7 @@
 
 ## Description
 
-Kelvin Maina Wangari's professional portfolio showcasing experience as a Software Developer & IT Consultant. This portfolio highlights projects, skills, education, and professional experience in full-lifecycle software development, including mobile and web applications.
+Kelvin Maina Wangari's professional portfolio showcasing experience as a Technical Educator & Software Developer. This portfolio highlights projects, skills, education, and professional experience in full-lifecycle software development, including mobile and web applications.
 
 ## Table of Contents
 

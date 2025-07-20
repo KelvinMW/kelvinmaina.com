@@ -1,5 +1,5 @@
 ### **KELVIN MAINA WANGARI**
-Software Developer & IT Consultant
+Technical Educator & Software Developer
 +248 2776255 or +254 702815127 | wkelvinmaina@gmail.com | [LinkedIn Profile URL] | [GitHub Profile URL]
 
 ***
