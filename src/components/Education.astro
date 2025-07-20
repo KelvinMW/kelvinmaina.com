@@ -13,11 +13,11 @@ const i18n = getI18N({ currentLocale });
 
 <SectionContainer id="education">
   <h2
-    class="text-2xl font-semibold mb-4 text-hub-light-blue dark:text-hub-dark-blue"
+    class="text-3xl font-bold mb-6 text-hub-title dark:text-hub-title-dark"
   >
     Education
   </h2>
-  <div class="flex flex-col gap-y-3">
+  <div class="flex flex-col gap-y-4">
     {
       cardsData.length > 0 ? (
         cardsData.map((card) => (
@@ -30,6 +30,7 @@ const i18n = getI18N({ currentLocale });
             subtitle={card.subtitle}
             imageSrc={card.imageSrc}
             imageAlt={card.imageAlt}
+            tasks={card.period ? [card.period] : []}
           />
         ))
       ) : (

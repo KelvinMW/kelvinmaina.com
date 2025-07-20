@@ -1,13 +1,12 @@
-# Personal Hub
+# Kelvin Maina Wangari - Portfolio
 
-
-[![Version](https://img.shields.io/github/package-json/v/itsteddydev/hub-itsteddydev)](https://github.com/itsteddydev/hub-itsteddydev) [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT) [![Astro Theme](https://img.shields.io/badge/Astro-Theme-blue?logo=astro)](https://astro.build/themes/details/personal-hub-a-customizable-personal-link/)
+[![Version](https://img.shields.io/github/package-json/v/kelvinmaina/kelvinmaina-portfolio)](https://github.com/kelvinmaina/kelvinmaina-portfolio) [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT) [![Astro Theme](https://img.shields.io/badge/Astro-Theme-blue?logo=astro)](https://astro.build/themes/details/personal-hub-a-customizable-personal-link/)
 
 ![Project Logo](public/img/cover/personal_hub.jpg)
 
 ## Description
 
-Personal Hub is a template designed to centralize and organize personal or professional information in one place. This tool allows users to manage and access their data, projects, important links, and more, all from a unified interface.
+Kelvin Maina Wangari's professional portfolio showcasing experience as a Software Developer & IT Consultant. This portfolio highlights projects, skills, education, and professional experience in full-lifecycle software development, including mobile and web applications.
 
 ## Table of Contents
 
@@ -101,10 +100,10 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 For inquiries, suggestions, or feedback, you can reach me through:
 
-
-- **LinkedIn**: [itsteddydev](https://www.linkedin.com/in/itsteddydev/)
-- **Twitter**: [@itsteddydev](https://twitter.com/itsteddydev)
+- **Email**: wkelvinmaina@gmail.com
+- **LinkedIn**: [kelvinmaina](https://www.linkedin.com/in/kelvinmaina/)
+- **GitHub**: [kelvinmaina](https://www.github.com/kelvinmaina)
 
 ---
 
-Thank you for using Personal Hub! We hope this tool helps you efficiently organize and centralize your information.
+Thank you for visiting my portfolio! Feel free to reach out for collaboration opportunities or questions about my work.

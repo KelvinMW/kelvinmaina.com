@@ -26,12 +26,14 @@ const Tag = href ? "a" : "div";
   id={id}
   href={href}
   data-section={id}
-  class="relative p-4 rounded-lg flex flex-col border-[1px]
-   border-hub-border
+  class="relative p-6 rounded-xl flex flex-col border border-hub-border
    dark:border-hub-border-dark
-   hover:drop-shadow-md
+   hover:shadow-lg hover:shadow-blue-500/10
    hover:bg-hub-background-nav
    dark:bg-hub-background-nav-dark
+   hover:border-hub-light-blue/20
+   dark:hover:border-hub-light-blue/30
+   transition-all duration-300 ease-in-out
    group"
   target={href ? "_blank" : undefined}
   rel={href ? "noopener noreferrer" : undefined}
@@ -47,20 +49,22 @@ const Tag = href ? "a" : "div";
     <!-- Contenedor izquierdo -->
     <div class="flex items-center">
       <div
-        class="rounded-lg border-[1px] size-9 flex items-center justify-center
-       border-hub-border
+        class="rounded-lg border border-hub-border
         dark:border-hub-border-dark
-      dark:bg-hub-background
-      overflow-hidden"
+        dark:bg-hub-background
+        overflow-hidden
+        size-12 flex items-center justify-center
+        bg-gradient-to-br from-hub-light-blue/10 to-hub-dark-blue/10
+        dark:from-hub-light-blue/20 dark:to-hub-dark-blue/20"
       >
         <img src={imageSrc} alt={imageAlt} class="w-full h-full object-cover" />
       </div>
 
       <div class="pl-4 flex flex-col justify-start">
-        <h2 class="font-medium text-base text-hub-title dark:text-hub-title-dark">
+        <h2 class="font-semibold text-lg text-hub-title dark:text-hub-title-dark">
           {title}
         </h2>
-        <small class="text-hub-subtitle dark:text-hub-subtitle-dark text-xs"
+        <small class="text-hub-subtitle dark:text-hub-subtitle-dark text-sm font-medium"
           >{subtitle}</small
         >
       </div>
@@ -73,11 +77,11 @@ const Tag = href ? "a" : "div";
       )
     }
   </div>
-  {
-    tasks.length > 0 && (
-      <ul class="list-disc list-inside mt-2 space-y-1 text-sm text-hub-light-gray dark:text-hub-dark-gray">
+      {
+      tasks.length > 0 && (
+      <ul class="list-disc list-inside mt-4 space-y-2 text-sm text-hub-light-gray dark:text-hub-dark-gray leading-relaxed">
         {tasks.map((task) => (
-          <li>{task}</li>
+          <li class="pl-2">{task}</li>
         ))}
       </ul>
     )

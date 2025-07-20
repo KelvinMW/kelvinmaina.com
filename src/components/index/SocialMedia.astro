@@ -24,7 +24,7 @@ const translatePath = useTranslatedPath(lang);
 <aside>
   <div class="flex gap-2 flex-wrap">
     <SocialPill
-      class="px-4 gap-1 font-medium text-sm text-white dark:text-white bg-sky-500 hover:bg-sky-400 w-auto group"
+      class="px-6 py-3 gap-2 font-semibold text-sm text-white dark:text-white bg-gradient-to-r from-hub-light-blue to-hub-dark-blue hover:from-hub-dark-blue hover:to-hub-light-blue w-auto group shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out"
       href={translatePath("/")}
       target="_self"
     >
@@ -35,7 +35,7 @@ const translatePath = useTranslatedPath(lang);
     </SocialPill>
     <Tooltip tooltip="Portfolio">
       <SocialPill
-        href="https://itsteddydev.vercel.app/"
+        href="https://kelvinmaina.com"
         class=""
         target="_blank"
       >
@@ -45,7 +45,7 @@ const translatePath = useTranslatedPath(lang);
 
     <Tooltip tooltip="GitHub">
       <SocialPill
-        href="https://www.github.com/itsteddydev"
+        href="https://www.github.com/kelvinmaina"
         class=""
         target="_blank"
       >
@@ -54,20 +54,20 @@ const translatePath = useTranslatedPath(lang);
     </Tooltip>
     <Tooltip tooltip="LinkedIn">
       <SocialPill
-        href="https://www.linkedin.com/in/itsteddydev"
+        href="https://www.linkedin.com/in/kelvinmaina"
         class=""
         target="_blank"
       >
         <LinkedIn class="size-4" />
       </SocialPill>
     </Tooltip>
-    <Tooltip tooltip="Instagram">
+    <Tooltip tooltip="Email">
       <SocialPill
-        href="https://www.instagram.com/itsteddydev"
+        href="mailto:wkelvinmaina@gmail.com"
         class=""
         target="_blank"
       >
-        <Instagram class="size-4" />
+        <Web class="size-4" />
       </SocialPill>
     </Tooltip>
   </div>

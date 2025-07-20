@@ -13,11 +13,11 @@ const i18n = getI18N({ currentLocale });
 
 <SectionContainer id="experience">
   <h2
-    class="text-2xl font-semibold mb-4 text-hub-light-blue dark:text-hub-dark-blue"
+    class="text-3xl font-bold mb-6 text-hub-title dark:text-hub-title-dark"
   >
     Professional Experience
   </h2>
-  <div class="flex flex-col gap-y-3">
+  <div class="flex flex-col gap-y-4">
     {
       experiences.length > 0 ? (
         experiences.map((card, index) => (
@@ -25,6 +25,7 @@ const i18n = getI18N({ currentLocale });
             id={`experience-${index}`}
             url={`${card.company} | ${card.location}`}
             title={card.title}
+            subtitle={`${card.company} | ${card.location} | ${card.period}`}
             imageSrc="/img/notion/white/my-notion-face-transparent_3.png"
             imageAlt={card.title}
             tasks={card.tasks}

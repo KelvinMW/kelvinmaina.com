@@ -20,21 +20,24 @@ export default {
 			},
 			colors: {
 				'hub-background': '#FFFFFF',
-				'hub-border': '#EDEDED',
-				'hub-title': '#121020',
-				'hub-subtitle': '#888888',
-				'hub-background-nav': '#FAFAFA',
-				'hub-inactive': '#B0B0B0',
+				'hub-border': '#E5E7EB',
+				'hub-title': '#111827',
+				'hub-subtitle': '#6B7280',
+				'hub-background-nav': '#F9FAFB',
+				'hub-inactive': '#9CA3AF',
 				'hub-text': '#FFFFFF',
-				'icons': '#6E6E6E',
+				'icons': '#6B7280',
+				'hub-light-blue': '#3B82F6',
+				'hub-dark-blue': '#1D4ED8',
+				'hub-light-gray': '#6B7280',
+				'hub-dark-gray': '#9CA3AF',
 				// dark
-				'hub-background-dark': '#101419',
-				'hub-border-dark': '#052B2E',
-				'hub-title-dark': '#FFFFFF',
-				'hub-subtitle-dark': '#999999',
-				'hub-background-nav-dark': '#080C11',
-
-
+				'hub-background-dark': '#0F172A',
+				'hub-border-dark': '#1E293B',
+				'hub-title-dark': '#F8FAFC',
+				'hub-subtitle-dark': '#CBD5E1',
+				'hub-background-nav-dark': '#1E293B',
+				'hub-inactive-dark': '#64748B',
 			},
 			backgroundImage: {
 				'btn-gradient': 'linear-gradient(to right, #825BDD, #5327BA)', // Gradiente para botones
